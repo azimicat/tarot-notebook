@@ -1,0 +1,400 @@
+{
+  "artist": "Pamela Colman Smith",
+  "designer": "Arthur Edward Waite",
+  "publication_year": 1909,
+  "source_repository": "https://github.com/sixseeds/tarot-api",
+  "rights_statement": "Public domain, as stated by the source repository README",
+  "processing": "Resized to at most 640 x 1080 pixels and encoded as WebP; no recoloring or generated content.",
+  "cards": [
+    {
+      "name": "The Fool",
+      "file": "ar00.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar00.jpg"
+    },
+    {
+      "name": "The Magician",
+      "file": "ar01.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar01.jpg"
+    },
+    {
+      "name": "The High Priestess",
+      "file": "ar02.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar02.jpg"
+    },
+    {
+      "name": "The Empress",
+      "file": "ar03.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar03.jpg"
+    },
+    {
+      "name": "The Emperor",
+      "file": "ar04.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar04.jpg"
+    },
+    {
+      "name": "The Hierophant",
+      "file": "ar05.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar05.jpg"
+    },
+    {
+      "name": "The Lovers",
+      "file": "ar06.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar06.jpg"
+    },
+    {
+      "name": "The Chariot",
+      "file": "ar07.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar07.jpg"
+    },
+    {
+      "name": "Strength",
+      "file": "ar08.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar08.jpg"
+    },
+    {
+      "name": "The Hermit",
+      "file": "ar09.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar09.jpg"
+    },
+    {
+      "name": "Wheel of Fortune",
+      "file": "ar10.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar10.jpg"
+    },
+    {
+      "name": "Justice",
+      "file": "ar11.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar11.jpg"
+    },
+    {
+      "name": "The Hanged Man",
+      "file": "ar12.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar12.jpg"
+    },
+    {
+      "name": "Death",
+      "file": "ar13.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar13.jpg"
+    },
+    {
+      "name": "Temperance",
+      "file": "ar14.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar14.jpg"
+    },
+    {
+      "name": "The Devil",
+      "file": "ar15.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar15.jpg"
+    },
+    {
+      "name": "The Tower",
+      "file": "ar16.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar16.jpg"
+    },
+    {
+      "name": "The Star",
+      "file": "ar17.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar17.jpg"
+    },
+    {
+      "name": "The Moon",
+      "file": "ar18.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar18.jpg"
+    },
+    {
+      "name": "The Sun",
+      "file": "ar19.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar19.jpg"
+    },
+    {
+      "name": "Judgement",
+      "file": "ar20.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar20.jpg"
+    },
+    {
+      "name": "The World",
+      "file": "ar21.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/ar21.jpg"
+    },
+    {
+      "name": "Ace of Wands",
+      "file": "wa01.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa01.jpg"
+    },
+    {
+      "name": "Two of Wands",
+      "file": "wa02.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa02.jpg"
+    },
+    {
+      "name": "Three of Wands",
+      "file": "wa03.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa03.jpg"
+    },
+    {
+      "name": "Four of Wands",
+      "file": "wa04.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa04.jpg"
+    },
+    {
+      "name": "Five of Wands",
+      "file": "wa05.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa05.jpg"
+    },
+    {
+      "name": "Six of Wands",
+      "file": "wa06.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa06.jpg"
+    },
+    {
+      "name": "Seven of Wands",
+      "file": "wa07.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa07.jpg"
+    },
+    {
+      "name": "Eight of Wands",
+      "file": "wa08.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa08.jpg"
+    },
+    {
+      "name": "Nine of Wands",
+      "file": "wa09.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa09.jpg"
+    },
+    {
+      "name": "Ten of Wands",
+      "file": "wa10.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa10.jpg"
+    },
+    {
+      "name": "Page of Wands",
+      "file": "wa11.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa11.jpg"
+    },
+    {
+      "name": "Knight of Wands",
+      "file": "wa12.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa12.jpg"
+    },
+    {
+      "name": "Queen of Wands",
+      "file": "wa13.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa13.jpg"
+    },
+    {
+      "name": "King of Wands",
+      "file": "wa14.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/wa14.jpg"
+    },
+    {
+      "name": "Ace of Cups",
+      "file": "cu01.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu01.jpg"
+    },
+    {
+      "name": "Two of Cups",
+      "file": "cu02.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu02.jpg"
+    },
+    {
+      "name": "Three of Cups",
+      "file": "cu03.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu03.jpg"
+    },
+    {
+      "name": "Four of Cups",
+      "file": "cu04.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu04.jpg"
+    },
+    {
+      "name": "Five of Cups",
+      "file": "cu05.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu05.jpg"
+    },
+    {
+      "name": "Six of Cups",
+      "file": "cu06.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu06.jpg"
+    },
+    {
+      "name": "Seven of Cups",
+      "file": "cu07.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu07.jpg"
+    },
+    {
+      "name": "Eight of Cups",
+      "file": "cu08.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu08.jpg"
+    },
+    {
+      "name": "Nine of Cups",
+      "file": "cu09.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu09.jpg"
+    },
+    {
+      "name": "Ten of Cups",
+      "file": "cu10.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu10.jpg"
+    },
+    {
+      "name": "Page of Cups",
+      "file": "cu11.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu11.jpg"
+    },
+    {
+      "name": "Knight of Cups",
+      "file": "cu12.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu12.jpg"
+    },
+    {
+      "name": "Queen of Cups",
+      "file": "cu13.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu13.jpg"
+    },
+    {
+      "name": "King of Cups",
+      "file": "cu14.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/cu14.jpg"
+    },
+    {
+      "name": "Ace of Swords",
+      "file": "sw01.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw01.jpg"
+    },
+    {
+      "name": "Two of Swords",
+      "file": "sw02.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw02.jpg"
+    },
+    {
+      "name": "Three of Swords",
+      "file": "sw03.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw03.jpg"
+    },
+    {
+      "name": "Four of Swords",
+      "file": "sw04.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw04.jpg"
+    },
+    {
+      "name": "Five of Swords",
+      "file": "sw05.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw05.jpg"
+    },
+    {
+      "name": "Six of Swords",
+      "file": "sw06.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw06.jpg"
+    },
+    {
+      "name": "Seven of Swords",
+      "file": "sw07.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw07.jpg"
+    },
+    {
+      "name": "Eight of Swords",
+      "file": "sw08.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw08.jpg"
+    },
+    {
+      "name": "Nine of Swords",
+      "file": "sw09.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw09.jpg"
+    },
+    {
+      "name": "Ten of Swords",
+      "file": "sw10.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw10.jpg"
+    },
+    {
+      "name": "Page of Swords",
+      "file": "sw11.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw11.jpg"
+    },
+    {
+      "name": "Knight of Swords",
+      "file": "sw12.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw12.jpg"
+    },
+    {
+      "name": "Queen of Swords",
+      "file": "sw13.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw13.jpg"
+    },
+    {
+      "name": "King of Swords",
+      "file": "sw14.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/sw14.jpg"
+    },
+    {
+      "name": "Ace of Pentacles",
+      "file": "pe01.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe01.jpg"
+    },
+    {
+      "name": "Two of Pentacles",
+      "file": "pe02.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe02.jpg"
+    },
+    {
+      "name": "Three of Pentacles",
+      "file": "pe03.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe03.jpg"
+    },
+    {
+      "name": "Four of Pentacles",
+      "file": "pe04.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe04.jpg"
+    },
+    {
+      "name": "Five of Pentacles",
+      "file": "pe05.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe05.jpg"
+    },
+    {
+      "name": "Six of Pentacles",
+      "file": "pe06.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe06.jpg"
+    },
+    {
+      "name": "Seven of Pentacles",
+      "file": "pe07.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe07.jpg"
+    },
+    {
+      "name": "Eight of Pentacles",
+      "file": "pe08.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe08.jpg"
+    },
+    {
+      "name": "Nine of Pentacles",
+      "file": "pe09.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe09.jpg"
+    },
+    {
+      "name": "Ten of Pentacles",
+      "file": "pe10.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe10.jpg"
+    },
+    {
+      "name": "Page of Pentacles",
+      "file": "pe11.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe11.jpg"
+    },
+    {
+      "name": "Knight of Pentacles",
+      "file": "pe12.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe12.jpg"
+    },
+    {
+      "name": "Queen of Pentacles",
+      "file": "pe13.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe13.jpg"
+    },
+    {
+      "name": "King of Pentacles",
+      "file": "pe14.webp",
+      "download_url": "https://raw.githubusercontent.com/sixseeds/tarot-api/main/cards/pe14.jpg"
+    }
+  ]
+}
