@@ -1,0 +1,14 @@
+const {test}=require('node:test');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const context=vm.createContext({});
+vm.runInContext(fs.readFileSync('docs/data.js','utf8')+'\n'+fs.readFileSync('docs/backup.js','utf8')+'\nthis.backup=StudyBackup; this.questionId=questions[0].id;',context);
+const b=context.backup;
+const data={answers:{[context.questionId]:{count:4,correct:3,last:false,wrong:true}},history:[{date:'2026-11-01T10:00:00.000Z',mode:'大アルカナ',score:3,count:5},{date:'2026-11-01T10:00:00.000Z',mode:'ワンド',type:'read',count:10}],readOrder:'number'};
+const clean=x=>JSON.parse(JSON.stringify(x));
+test('backup preserves quiz totals, review list, old five-question sessions, reading history and order',()=>assert.deepEqual(clean(b.parse(b.serialize(data))),data));
+test('existing local data without order loads compatibly',()=>assert.equal(b.validate({answers:{},history:[]}).readOrder,'random'));
+test('reject corrupt, unrelated and future files',()=>{for(const file of ['{','{}',JSON.stringify({format:'tsuki-study-backup',version:2,data})])assert.throws(()=>b.parse(file));});
+test('reject unsafe or inconsistent imported records',()=>{for(const mutate of [d=>d.history[0].mode='<img onerror=alert(1)>',d=>d.history[0].score=11,d=>d.history[0].date='not a date',d=>d.answers[context.questionId].count=-1,d=>d.answers[context.questionId].correct=10,d=>d.answers['unknown']={},d=>d.readOrder='anything',d=>d.history=Array(51).fill(d.history[0])]){const d=clean(data);mutate(d);assert.throws(()=>b.validate(d));}});
+test('empty backup and unknown fields are safely normalized',()=>assert.deepEqual(clean(b.parse(b.serialize({answers:{},history:[],extra:'discard'}))),{answers:{},history:[],readOrder:'random'}));
