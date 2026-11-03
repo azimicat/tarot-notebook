@@ -1,0 +1,17 @@
+{
+  "name": "月の手帖 — タロットの学び",
+  "short_name": "月の手帖",
+  "description": "ウェイト版タロットを1回10項目の解説と三択で学ぶ。78枚の意味、正位置と逆位置、カードの置き方を少しずつ。",
+  "lang": "ja",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#f6f3ec",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

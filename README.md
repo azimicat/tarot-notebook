@@ -22,6 +22,10 @@ HTML・CSS・JavaScriptのみの静的サイトです。外部API・データベ
 - `docs/backup.js`: バックアップの形式検証
 - `docs/style.css`: レスポンシブデザイン
 - `docs/assets/cards/`: 78枚のカード画像と取得元一覧
+- `docs/manifest.webmanifest`: ホーム画面に追加したときのアプリ名・アイコン・配色
+- `docs/sw.js`: 一度開いたページをオフラインでも表示するService Worker
+- `docs/icons/`: ホーム画面用アイコン（「月」のカードの月の顔と光の筋を切り出したもの）
+- `icons.py`: `docs/icons/` の生成元（Pillowが必要。サイトの起動には不要）
 - `tests/backup.test.cjs`: バックアップのテスト
 
 ## ローカル実行
@@ -41,6 +45,13 @@ node --test tests/backup.test.cjs
 リポジトリの **Settings → Pages** で Source に **Deploy from a branch**、Branch に **main**、Folder に **/docs** を指定します。
 
 `docs/.nojekyll` により静的ファイルをそのまま配信します。以後は `main` の `docs/` を更新すると公開内容も更新されます。
+
+## ホーム画面への追加
+
+AndroidのChromeで公開サイトを開き、メニューの「ホーム画面に追加」または「アプリをインストール」を選ぶと、アプリとして起動できます。iPhoneのSafariでは共有メニューの「ホーム画面に追加」を使います。
+
+一度開いたページ・カード画像は端末に保存され、電波のない場所でも表示されます。まだ開いていないカード画像は表示されません。
+`docs/sw.js` の `CACHE` の値を変えると、各端末の保存済みファイルが入れ替わります。HTML・CSS・JSはつながる場所では毎回公開サイトから読むため、文章や画面の変更では値を変える必要はありません。画像を同じファイル名で差し替えたときだけ変更してください。
 
 ## 学習記録と移行
 
